@@ -1,0 +1,145 @@
+#resent {
+  .resent {
+
+    &--general {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      &__block {
+
+
+        h1 {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 120%;
+          letter-spacing: -0.01em;
+          color: #211F25;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 17.7778px;
+          line-height: 150%;
+          color: #3D3A41;
+          padding-top: 20px;
+
+        }
+
+
+      }
+
+      &__text {
+        &--btn {
+          width: 112px;
+          height: 56px;
+          border: 0.987654px solid #FF007A;
+          border-radius: 32px;
+          font-weight: 400;
+          font-size: 15.8025px;
+          line-height: 150%;
+          color: #FF007A;
+        }
+      }
+    }
+
+    &--legend {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    &--work {
+      &:hover {
+
+        border: 2px solid #ffffff;
+        background: #eee;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 30px;
+
+
+      &__title {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 40px;
+
+        h1 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 13.6585px;
+          line-height: 150%;
+          color: #211F25;
+          width: 94.61px;
+          height: 27.8px;
+          background: #F4F4F4;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+
+        &--block {
+          padding: 20px;
+
+          p {
+            font-weight: 600;
+            font-size: 13.6585px;
+            line-height: 150%;
+            color: #3D3A41;
+
+          }
+        }
+
+      }
+
+      &__qarm {
+        h3 {
+          font-weight: 600;
+          font-size: 23.4146px;
+          line-height: 140%;
+          color: #211F25;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 15.6098px;
+          line-height: 150%;
+          color: #3D3A41;
+
+        }
+
+        button {
+          font-weight: 400;
+          font-size: 15.6098px;
+          line-height: 150%;
+          color: #FF007A;
+          width: 99.61px;
+          height: 38.61px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          transition: .4s;
+
+          &:hover {
+            transform: scale(1.1);
+            background: deeppink;
+            color: white;
+            border: 2px solid deeppink;
+          }
+        }
+
+      }
+
+
+    }
+  }
+
+}

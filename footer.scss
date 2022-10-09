@@ -1,0 +1,152 @@
+#footer {
+  //width: 1440px;
+  height: 470px;
+  overflow: hidden;
+  background: #211F25;
+  width: 100%;
+  .footer {
+
+    &--home {
+      align-items: center;
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 50px;
+
+
+      &__block {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          margin-left: 40px;
+          width: 40%;
+          padding-bottom: 50px;
+        }
+
+        h1 {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          color: #FFFFFF;
+
+
+        }
+
+        &--a {
+          a {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            padding: 10px;
+          }
+
+
+        }
+
+
+      }
+
+      &__input {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          color: #FFFFFF;
+          padding-bottom: 20px;
+        }
+
+        &--button {
+          &__amg {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #505050;
+            padding-left: 40px;
+            width: 365px;
+            height: 48px;
+            background: #FFFFFF;
+            border-radius: 32px;
+            border: none;
+            outline: none;
+          }
+
+          button {
+            width: 132px;
+            height: 56px;
+            background: #FF007A;
+            border-radius: 32px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            border: none;
+            margin-left: 50px;
+            transition: .4s;
+
+            &:hover {
+              transform: scale(1.1);
+              background: #ffffff;
+              color: #000000;
+              border: 2px solid deeppink;
+            }
+
+          }
+        }
+      }
+    }
+
+    &--dive {
+      width: 1490px;
+      height: 1px;
+      background: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      padding-left: 70px;
+    }
+
+    &--home__pirvacy {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 60px;
+
+      &--ab {
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 150%;
+          text-decoration-line: underline;
+          color: #FFFFFF;
+          transition: .4s;
+          padding: 20px;
+
+          &:hover {
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+          }
+        }
+
+
+      }
+
+      &--abd {
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 150%;
+          color: #FFFFFF;
+
+        }
+
+      }
+
+    }
+  }
+}

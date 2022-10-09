@@ -1,0 +1,754 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  #header .navbar--nav__link {
+    font-size: 15px;
+    padding: 17px;
+  }
+  #header .navbar--nav__btn {
+    width: 180px;
+    height: 56px;
+    border-radius: 28px;
+  }
+  #hero .hero--div {
+    width: 158.1px;
+    height: 612.79px;
+  }
+  #hero .hero--general h1 {
+    font-size: 55px;
+  }
+  #ani .ani .ani--werk img {
+    width: 300px;
+  }
+  #simple .simple--block__text h1 {
+    font-size: 46px;
+    padding: 20px;
+    text-align: center;
+  }
+  #simple .simple--block__text p {
+    font-size: 15px;
+  }
+  #get .get--text__block h1 {
+    font-size: 48px;
+  }
+  #get .get--text p {
+    padding-top: 21px;
+  }
+  #resent .resent--legend {
+    flex-wrap: wrap;
+  }
+  #resent .resent--work {
+    margin: 30px;
+  }
+  #zoom .zoom--block__img--tt img {
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+  #footer .footer--home__block img {
+    margin-left: 20px;
+    width: 30%;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
+  #footer .footer--home__block--a a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  #footer .footer--home {
+    padding-top: 70px;
+    flex-direction: column;
+  }
+  #footer .footer--home__input {
+    padding-top: 50px;
+  }
+  #footer .footer--home__pirvacy {
+    margin: 10px;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  #img .img--general {
+    position: absolute;
+    bottom: -5rem;
+    left: 50%;
+    width: 100em;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: white;
+    transform: translateX(-50%);
+    margin-top: 50px;
+  }
+  #hero .hero--general h1 {
+    font-size: 50px;
+  }
+  #img .img--general__block img {
+    width: 819px;
+    margin-top: 40px;
+  }
+  #hero .hero--div {
+    width: 145.1px;
+    height: 582.79px;
+    margin-top: -441px;
+  }
+  #hero {
+    padding-top: 107px;
+  }
+  #ani {
+    padding-top: 457px;
+  }
+  #ani .ani--text h1 {
+    font-size: 43px;
+  }
+  #ani .ani--text p {
+    font-size: 15px;
+    padding-top: 17px;
+  }
+  #ani .ani .ani--werk {
+    flex-wrap: wrap;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #easy .easy--block h1 {
+    font-size: 35px;
+    padding-top: 40px;
+  }
+  #easy .easy--block p {
+    font-size: 13px;
+    padding-top: 30px;
+  }
+  #easy .easy--img img {
+    width: 500px;
+    padding-top: 30px;
+  }
+  #easy .easy {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #easy .easy--block button {
+    margin-top: 40px;
+    width: 177px;
+    border-radius: 32px;
+  }
+  #advance .advance--general {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #advance .advance--general img {
+    padding-top: 40px;
+    width: 500px;
+  }
+  #advance .advance--general h1 {
+    font-size: 35px;
+    padding-top: 40px;
+  }
+  #advance .advance--general p {
+    font-size: 13px;
+    padding-top: 26px;
+  }
+  #advance .advance--general button {
+    margin-top: 40px;
+    width: 177px;
+    border-radius: 32px;
+  }
+  #customer .customer--block h1 {
+    font-size: 41px;
+    padding-top: 40px;
+  }
+  #customer .customer--block p {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 17px;
+  }
+  #customer .customer .swiper-slide img {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  #customer .customer .swiper-slide p {
+    font-size: 16px;
+  }
+  #customer .customer .swiper {
+    padding: 20px;
+  }
+  #simple .simple--block__text h1 {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+  }
+  #simple .simple--block__text p {
+    font-size: 13px;
+  }
+  #simple .simple--block {
+    transition: 0.4s;
+    padding: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #simple .simple--block__general {
+    margin-top: 40px;
+    margin-left: 98px;
+  }
+  #simple .simple--block__general h1 {
+    font-size: 17px;
+    padding: 14px;
+  }
+  #simple .simple--block__general h2 {
+    font-size: 25px;
+    padding: 14px;
+  }
+  #simple .simple p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  #simple .simple--block__work {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+  }
+  #simple .simple {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px;
+    transition: all 0.4s ease;
+    flex-wrap: wrap;
+  }
+  #simple .simple--block__btn button {
+    font-size: 16.6098px;
+    width: 338.89px;
+    height: 52px;
+    border-radius: 30px;
+  }
+  #get .get--text__block h1 {
+    font-size: 40px;
+  }
+  #get .get--text p {
+    font-size: 12px;
+    padding-top: 15px;
+  }
+  #resent .resent--general__block h1 {
+    font-size: 44px;
+  }
+  #resent .resent--general__block p {
+    font-size: 16.7778px;
+    padding-top: 20px;
+  }
+  #zoom .zoom--block__title h1 {
+    font-size: 44px;
+  }
+  #zoom .zoom--block__title p {
+    font-size: 14px;
+    padding-top: 18px;
+  }
+  #zoom .zoom--block__img--tt {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  #footer .footer--home__block img {
+    margin-left: 20px;
+    width: 20%;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
+  #footer .footer--home {
+    padding-top: 70px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #footer .footer--home__block--a a {
+    font-size: 15px;
+  }
+  #footer .footer--home__input h1 {
+    font-size: 14px;
+  }
+  #footer .footer--home__input--button__amg {
+    font-size: 14px;
+    line-height: 150%;
+    color: #505050;
+    padding-left: 37px;
+    width: 359px;
+    height: 46px;
+  }
+  #footer .footer--home__input--button button {
+    width: 128px;
+    height: 56px;
+    border-radius: 29px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  #footer .footer--home__pirvacy--ab a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    transition: 0.4s;
+    padding: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  #header .navbar {
+    overflow: hidden;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #header .navbar img {
+    width: 100px;
+  }
+  #header .navbar--nav__link {
+    font-size: 11px;
+    padding: 14px;
+  }
+  #header .navbar--nav__btn {
+    width: 171px;
+    height: 52px;
+    border-radius: 24px;
+  }
+  #hero .hero--div {
+    width: 145.1px;
+    height: 611.79px;
+    margin-top: -520px;
+  }
+  #hero .hero--general h1 {
+    font-size: 36px;
+  }
+  #hero .hero--general p {
+    font-size: 15px;
+    padding-top: 27px;
+  }
+  #hero .hero--btn__2 {
+    width: 178px;
+    height: 53px;
+  }
+  #hero .hero--btn {
+    margin-top: 21px;
+  }
+  #img .img--general__block img {
+    width: 777px;
+    margin-top: 18px;
+  }
+  #hero .hero--btn img {
+    position: absolute;
+    left: -107px;
+  }
+  #ani .ani--text h1 {
+    font-size: 36px;
+  }
+  #ani {
+    padding-top: 421px;
+  }
+  #ani .ani--text p {
+    font-size: 12px;
+    padding-top: 15px;
+  }
+  #ani .ani .ani--werk {
+    padding: 11px;
+  }
+  #easy .easy--block h1 {
+    font-size: 31px;
+    padding-top: 37px;
+  }
+  #easy .easy--block p {
+    font-size: 11px;
+    padding-top: 23px;
+  }
+  #easy .easy--block button {
+    margin-top: 30px;
+    width: 170px;
+    border-radius: 32px;
+  }
+  #easy .easy--img img {
+    width: 464px;
+    padding-top: 26px;
+  }
+  #advance .advance--general img {
+    padding-top: 34px;
+    width: 464px;
+  }
+  #advance .advance--general h1 {
+    font-size: 27px;
+    padding-top: 40px;
+  }
+  #advance .advance--general p {
+    padding-top: 20px;
+  }
+  #advance .advance--general button {
+    margin-top: 30px;
+    width: 170px;
+    border-radius: 32px;
+  }
+  #advance .advance--general {
+    padding-top: 60px;
+  }
+  #customer .customer--block h1 {
+    font-size: 39px;
+    padding-top: 60px;
+  }
+  #customer .customer .swiper-slide img {
+    width: 179px;
+    padding: 15px;
+    margin-top: 70px;
+  }
+  #customer .customer .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 476px;
+    height: 476px;
+  }
+  #customer .customer .swiper-slide p {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  #simple .simple--block__text h1 {
+    font-size: 34px;
+    padding: 18px;
+  }
+  #simple .simple--block {
+    padding: 12px;
+  }
+  #get .get--text__block h1 {
+    font-size: 35px;
+  }
+  #get .get--text p {
+    font-size: 12px;
+    padding-top: 15px;
+  }
+  #customer .customer .swiper-slide {
+    width: 467px;
+    height: 467px;
+  }
+  #footer .footer--home__block--a a {
+    font-size: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #footer .footer--home__input h1 {
+    font-size: 12px;
+  }
+  #footer .footer--home__input {
+    padding-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  #header .navbar img {
+    width: 80px;
+  }
+  #header .navbar--nav__link {
+    font-size: 8px;
+    padding: 10px;
+  }
+  #header .navbar--nav__btn {
+    width: 169px;
+    height: 47px;
+    border-radius: 20px;
+  }
+  #hero .hero--div {
+    width: 138.1px;
+    height: 606.79px;
+    margin-top: -527px;
+  }
+  #hero .hero--general h1 {
+    font-size: 34px;
+  }
+  #hero .hero--general p {
+    font-size: 13px;
+    padding-top: 24px;
+  }
+  #hero .hero--btn__2 {
+    width: 156px;
+  }
+  #hero .hero--btn__3 {
+    width: 156px;
+    height: 56px;
+  }
+  #img .img--general__block img {
+    width: 618px;
+  }
+  #ani .ani--text h1 {
+    font-size: 34px;
+  }
+  #ani {
+    padding-top: 355px;
+  }
+  #ani .ani .ani--werk img {
+    width: 290px;
+  }
+  #ani .ani h4 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  #ani .ani h5 {
+    font-size: 14px;
+    padding: 28px;
+  }
+  #easy .easy--block h1 {
+    font-size: 29px;
+    padding-top: 44px;
+  }
+  #easy .easy--img img {
+    width: 444px;
+    padding-top: 32px;
+  }
+  #advance .advance--general img {
+    width: 444px;
+    padding-top: 32px;
+  }
+  #advance .advance--general h1 {
+    font-size: 24px;
+    padding-top: 35px;
+  }
+  #advance .advance--general p {
+    padding-top: 18px;
+    font-size: 12px;
+  }
+  #customer .customer--block h1 {
+    font-size: 35px;
+    padding-top: 50px;
+  }
+  #customer .customer--block p {
+    font-size: 12px;
+    padding: 14px;
+  }
+  #customer .customer .swiper-slide {
+    width: 404px;
+    height: 388px;
+  }
+  #customer .customer .swiper-slide p {
+    font-size: 16px;
+    margin-top: 28px;
+    margin-left: 18px;
+  }
+  #customer .customer .swiper-slide img {
+    width: 173px;
+    padding: 16px;
+    margin-top: 58px;
+  }
+  #simple .simple--block__text h1 {
+    font-size: 30px;
+  }
+  #simple .simple--block__text p {
+    font-size: 10px;
+  }
+  #simple .simple--block__general h1 {
+    font-size: 13px;
+  }
+  #simple .simple--block__general h2 {
+    font-size: 23px;
+    padding: 10px;
+  }
+  #simple .simple p {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  #simple .simple--block__work {
+    margin-top: 28px;
+  }
+  #simple .simple--block__btn button {
+    font-size: 12.6098px;
+    width: 321.89px;
+    height: 45px;
+    border-radius: 27px;
+  }
+  #get .get--text__block h1 {
+    font-size: 25px;
+  }
+  #get .get--text p {
+    padding-top: 12px;
+  }
+  #get .get--text__input {
+    padding-top: 23px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+  }
+  #get .get--text__input button {
+    margin-left: 11px;
+    margin-top: 15px;
+  }
+  #resent .resent--general__block h1 {
+    font-size: 38px;
+    padding-top: 30px;
+  }
+  #resent .resent--general__block p {
+    font-size: 13.7778px;
+    padding-top: 20px;
+  }
+  #zoom .zoom--block__title h1 {
+    font-size: 40px;
+  }
+  #zoom .zoom--block__title p {
+    font-size: 12px;
+    padding-top: 18px;
+  }
+  #zoom .zoom--block__img--tt img {
+    padding-left: 39px;
+    padding-top: 38px;
+    width: 120px;
+  }
+  #footer .footer--home__block--a a {
+    font-size: 13px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #footer .footer--home__input {
+    padding-top: 45px;
+  }
+  #footer .footer--home__input--button__amg {
+    width: 335px;
+    height: 43px;
+  }
+  #footer .footer--home__input--button button {
+    width: 115px;
+    height: 51px;
+  }
+  #footer .footer--home__pirvacy--ab a {
+    font-size: 8px;
+  }
+  #footer .footer--home__pirvacy--abd a {
+    font-size: 11px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #resent .resent--work img {
+    width: 350px;
+  }
+}
+@media (max-width: 452px) {
+  .container {
+    width: 90%;
+  }
+  header .navbar--nav__link {
+    padding: 7px;
+  }
+  #header .navbar {
+    overflow: hidden;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #header .navbar--nav__btn {
+    font-size: 6px;
+    width: 136px;
+    height: 35px;
+    border-radius: 20px;
+  }
+  #hero .hero--general h1 {
+    font-size: 26px;
+  }
+  #hero .hero--general p {
+    font-size: 10px;
+    padding-top: 19px;
+  }
+  #hero .hero--btn__2 {
+    width: 146px;
+    font-size: 11px;
+  }
+  #hero .hero--btn__3 {
+    width: 136px;
+    height: 53px;
+  }
+  #img .img--general__block img {
+    width: 475px;
+  }
+  #ani .ani--text h1 {
+    font-size: 30px;
+  }
+  #ani .ani--text p {
+    font-size: 10px;
+  }
+  #ani .ani .ani--werk img {
+    width: 275px;
+  }
+  #ani .ani h4 {
+    font-size: 25px;
+    padding: 6px;
+  }
+  #ani .ani h5 {
+    font-size: 11px;
+    padding: 24px;
+  }
+  #easy .easy--block h1 {
+    font-size: 24px;
+    padding-top: 47px;
+  }
+  #easy .easy--block p {
+    font-size: 9px;
+    padding-top: 21px;
+  }
+  #easy .easy--block button {
+    width: 161px;
+  }
+  #easy .easy--img img {
+    width: 417px;
+    padding-top: 32px;
+  }
+  #advance .advance--general img {
+    width: 417px;
+    padding-top: 32px;
+  }
+  #footer .footer--home__block--a a {
+    font-size: 12px;
+    padding: 5px;
+  }
+  #footer .footer--home__input--button button {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

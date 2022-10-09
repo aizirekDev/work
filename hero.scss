@@ -1,0 +1,75 @@
+@import "mixin";
+@import "reset";
+@import "varables";
+
+#hero {
+  min-height: 100vh;
+  padding-top: 180px;
+  background: linear-gradient(63.56deg, #6B50FF 48.13%, #A145FF 100%);
+  .hero {
+    overflow: hidden;
+    &--div{
+      width: 183.1px;
+      height: 620.79px;
+      background: rgba(115, 115, 255, 0.32);
+      border-radius: 91.5514px;
+      transform: rotate(-38.67deg);
+      margin-top: -400px;
+
+    }
+    &--general {
+      h1 {
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 155%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        padding-top: 40px;
+
+      }
+    }
+    &--btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+
+      &__2 {
+        width: 187px;
+        height: 60px;
+        background: #FF007A;
+        box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 32px;
+        border: none;
+
+      }
+
+      &__3 {
+        width: 187px;
+        height: 60px;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+        border-radius: 32px;
+        position: relative;
+
+
+      }
+
+      img {
+        position: absolute;
+        left: 860px;
+      }
+    }
+  }
+}
+
