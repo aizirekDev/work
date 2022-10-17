@@ -1,17 +1,22 @@
 @import "mixin";
 @import "reset";
 @import "varables";
+
+
 #img {
   :root {
     --size: 16.875rem;
   }
+  ////background: url("./img/esen.png") no-repeat top /cover;
+  //min-height: 100vh;
+  //padding-top: 180px;
   position: relative;
   width: var(--size);
   height: var(--size);
   background-color: lightgray;
   border-radius: 1rem 1rem 0 0;
   #img::before,
-  #img::after {
+   #img::after {
     content: '';
     position: absolute;
     bottom: -1rem;
@@ -31,16 +36,16 @@
   .img--general {
     position: absolute;
     bottom: -5rem;
-    left: 50%;
+    left:50%;
     width: 100em;
     height: 15rem;
     border-radius: 50%;
     background-color: white;
     transform: translateX(-50%);
     &__block {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
   }
 }
