@@ -41,73 +41,73 @@
 
       &--general {
       }
+        img {
+          padding-top: 40px;
+        }
 
-      img {
-        padding-top: 40px;
+        h1 {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 120%;
+          letter-spacing: -0.01em;
+          color: #211F25;
+          padding: 20px;
+          margin-left: 50px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 155%;
+          letter-spacing: 0.02em;
+          color: #3D3A41;
+          padding: 30px;
+
+        }
+
+        h6 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 155%;
+          letter-spacing: 0.02em;
+          color: #211F25;
+          margin-left: 130px;
+        }
       }
 
-      h1 {
+      &--work {
+      }
+
+      img {
+      }
+
+      h4 {
         font-weight: 700;
         font-size: 32px;
         line-height: 120%;
         letter-spacing: -0.01em;
         color: #211F25;
         padding: 20px;
-        margin-left: 50px;
       }
 
-      p {
+      h5 {
         font-weight: 400;
         font-size: 16px;
         line-height: 155%;
         letter-spacing: 0.02em;
         color: #3D3A41;
         padding: 30px;
-
       }
 
-      h6 {
+      h3 {
         font-weight: 500;
         font-size: 16px;
         line-height: 155%;
         letter-spacing: 0.02em;
-        color: #211F25;
+        color: #FF007A;
         margin-left: 130px;
       }
-    }
 
-    &--work {
-    }
-
-    img {
-    }
-
-    h4 {
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 120%;
-      letter-spacing: -0.01em;
-      color: #211F25;
-      padding: 20px;
-    }
-
-    h5 {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 155%;
-      letter-spacing: 0.02em;
-      color: #3D3A41;
-      padding: 30px;
-    }
-
-    h3 {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 155%;
-      letter-spacing: 0.02em;
-      color: #FF007A;
-      margin-left: 130px;
-    }
 
 
   }

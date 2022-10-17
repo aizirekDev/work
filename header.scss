@@ -10,13 +10,14 @@
   z-index: 999;
   width: 100%;
 
+
   .navbar {
     overflow: hidden;
     padding: 0 20px;
-    @include align();
+    @include align ();
 
     &--nav {
-      &__link {
+      &__link  {
         font-weight: 700;
         font-size: 18px;
         line-height: 155%;
@@ -24,13 +25,11 @@
         color: #FFFFFF;
         transition: .4s;
         padding: 20px;
-
         &:hover {
           color: black;
           border-bottom: 1px solid red;
         }
       }
-
       &__btn {
         @include btn();
       }
